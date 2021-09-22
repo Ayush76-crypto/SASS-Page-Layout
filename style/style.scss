@@ -1,3 +1,4 @@
+// Color Variables
 $colors: (
   primary: rgb(36, 161, 155),
   primary-light:lighten( #005DFF , 40%),
@@ -15,6 +16,7 @@ $borders: 15px;
 
 $desktop : 840px;
 
+// Responiveness properties
 @mixin desktop {
   @media (min-width : ($desktop)) {
     @content;
